@@ -60,6 +60,6 @@ SELECT
     END AS transferencia_total
 
 FROM paysim_data
-WHERE isfraud = 1;
+WHERE isfraud = 1; -- Facilita para ver el patrón de los fraudes
 
 SELECT * FROM vw_patrones_fraude;
