@@ -51,9 +51,6 @@ Cada fila representa una transacción y contiene información como:
 ```text
 PaySim_proyecto/
 │
-├── data/
-│   └── paysim_data.csv
-│
 ├── notebooks/
 │   └── main_notebook.ipynb
 │
@@ -64,6 +61,7 @@ PaySim_proyecto/
 │
 └─── README.md
 ```
+No incluyo la carpeta data debido a que el csv que ocupe es basante pesado. 
 
 ---
 
