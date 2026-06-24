@@ -62,8 +62,7 @@ PaySim_proyecto/
 │   ├── eda_sql.sql
 │   └── views.sql
 │
-├── README.md
-└── requirements.txt
+└─── README.md
 ```
 
 ---
@@ -151,107 +150,6 @@ Incluye:
 - **Scikit-learn**
 - **MySQL**
 - **Jupyter Notebook**
-
----
-
-## Instalación y configuración
-
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-```
-
----
-
-### 2. Crear un entorno virtual
-
-```bash
-python -m venv venv
-```
-
-Activar el entorno en Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Activar el entorno en macOS/Linux:
-
-```bash
-source venv/bin/activate
-```
-
----
-
-### 3. Instalar dependencias
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-```
-
-Opcionalmente, si se cuenta con un archivo `requirements.txt`:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### 4. Colocar el dataset
-
-Colocar el archivo `paysim_data.csv` dentro de la carpeta:
-
-```text
-data/paysim_data.csv
-```
-
-En el notebook, la lectura del dataset se realiza con:
-
-```python
-df = pd.read_csv("../data/paysim_data.csv")
-```
-
----
-
-## Uso del proyecto
-
-### Ejecución de SQL
-
-Primero, ejecutar el script de creación de base de datos y tabla:
-
-```sql
-SOURCE sql/create_database_table.sql;
-```
-
-Después, ejecutar las consultas de exploración:
-
-```sql
-SOURCE sql/eda_sql.sql;
-```
-
-Finalmente, crear las vistas:
-
-```sql
-SOURCE sql/views.sql;
-```
-
----
-
-### Ejecución del notebook
-
-Abrir Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-Luego abrir el archivo:
-
-```text
-notebooks/main_notebook.ipynb
-```
 
 ---
 
@@ -592,7 +490,7 @@ En este tipo de problema, el **recall** suele ser especialmente importante porqu
 
 ## Autor
 
-Proyecto desarrollado por **Lalo** como parte de un portafolio de análisis de datos y Machine Learning aplicado a fraude financiero.
+Proyecto desarrollado por **Luis Eduardo** como parte de un portafolio de análisis de datos y Machine Learning aplicado a fraude financiero.
 
 ---
 
